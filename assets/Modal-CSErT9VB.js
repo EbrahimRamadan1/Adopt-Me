@@ -1,0 +1,1 @@
+import{r,o as n}from"./index-ZsmJtF98.js";const a=({children:o})=>{const e=r.useRef(null);return e.current||(e.current=document.createElement("div")),r.useEffect(()=>{const t=document.getElementById("modal");return t.appendChild(e.current),()=>{t.removeChild(e.current)}},[]),n.createPortal(o,e.current)};export{a as default};
